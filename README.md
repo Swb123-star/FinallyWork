@@ -94,6 +94,18 @@ python plot_01_rel_k600_ER.py
 </div>
 
 
+
+<div align="center">
+
+| 原图3 | 复现图3-1 | 复现图3-2 |
+|:---:|:---:|:---:|
+| <img width="300" src="https://github.com/user-attachments/assets/8a62b841-d743-4d2a-986b-9f88480599f1" alt="原图2"> | <img width="300" src="https://github.com/user-attachments/assets/73207f70-37f4-4fdd-8809-085579d81dbe" alt="复现图2-1"> | <img width="300" src="https://github.com/user-attachments/assets/81f61071-2577-47d4-b6cb-e075ad19a5b4" alt="复现图2-2"> |
+| **原图3** | **复现图3-1（代谢系数）** | **复现图3-2（方差分解）** |
+
+</div>
+
+
+
 ## 数据说明
 
 原始数据集包含50个站点的观测数据，主要变量包括：

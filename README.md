@@ -73,6 +73,12 @@ python plot_01_rel_k600_ER.py
 7. **Figure 7**：SEM标准化总效应图
 8. **Figure 8**：不同DO赤字水平下的场景分析图
 
+## 复现对比
+
+<img width="533" height="544" alt="图一" src="https://github.com/user-attachments/assets/ecc6aad9-267c-427e-9189-608013b9210e" />原图1
+
+<img width="2960" height="3262" alt="figure_03_rel_ghg" src="https://github.com/user-attachments/assets/772c8cab-365a-4e89-8834-c1ad95e739e6" />复现图1
+
 ## 数据说明
 
 原始数据集包含50个站点的观测数据，主要变量包括：

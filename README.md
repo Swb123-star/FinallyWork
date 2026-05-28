@@ -85,17 +85,30 @@ setwd("D:/DATA/FinallyWork")
 
 ## 📊 原图 ↔ 复现图 对照展示
 
-| 序号 | 原图 | 复现图 | 对比说明 |
-|:---:|:---:|:---:|:---:|
-| 1 | ![原图2](./original_figures/fig2.jpg) | ![复现图2](./SWB_collage_figures/collage_01.jpg) | **图2 相关性与回归分析**<br>复现结果与原图趋势、标注完全一致 |
-| 2 | ![原图3](./original_figures/fig3.jpg) | ![复现图3](./SWB_collage_figures/collage_02.jpg) | **图3 回归系数与解释方差**<br>回归系数、显著性标注与原图匹配 |
-| 3 | ![原图4](./original_figures/fig4.jpg) | ![复现图4](./SWB_collage_figures/collage_03.jpg) | **图4 站点与温度效应**<br>站点分布与温度梯度复现准确 |
-| 4 | ![原图5](./original_figures/fig5.jpg) | ![复现图5](./SWB_collage_figures/collage_04.jpg) | **图5 溶解氧与饱和度分析**<br>溶解氧/饱和度变化趋势与原图一致 |
-| 5 | ![原图6](./original_figures/fig6.jpg) | ![复现图6](./SWB_collage_figures/collage_05.jpg) | **图6 局部与全局效应值**<br>方差分解结果与原图完全匹配 |
+<div align="center">
+  <img src="original_figures/fig2.jpg" alt="原图：相关性与回归分析" width="45%" hspace="10">
+  <img src="SWB_collage_figures/collage_01.jpg" alt="复现图：相关性与回归分析" width="45%" hspace="10">
+</div>
 
-<p align="center">
-  <em>💡 点击图片可查看高清大图</em>
-</p>
+<div align="center" style="margin-top:15px">
+  <img src="original_figures/fig3.jpg" alt="原图：回归系数与解释方差" width="45%" hspace="10">
+  <img src="SWB_collage_figures/collage_02.jpg" alt="复现图：回归系数与解释方差" width="45%" hspace="10">
+</div>
+
+<div align="center" style="margin-top:15px">
+  <img src="original_figures/fig4.jpg" alt="原图：站点与温度效应" width="45%" hspace="10">
+  <img src="SWB_collage_figures/collage_03.jpg" alt="复现图：站点与温度效应" width="45%" hspace="10">
+</div>
+
+<div align="center" style="margin-top:15px">
+  <img src="original_figures/fig5.jpg" alt="原图：溶解氧与饱和度分析" width="45%" hspace="10">
+  <img src="SWB_collage_figures/collage_04.jpg" alt="复现图：溶解氧与饱和度分析" width="45%" hspace="10">
+</div>
+
+<div align="center" style="margin-top:15px">
+  <img src="original_figures/fig6.jpg" alt="原图：局部与全局效应值" width="45%" hspace="10">
+  <img src="SWB_collage_figures/collage_05.jpg" alt="复现图：局部与全局效应值" width="45%" hspace="10">
+</div>
 ---
 
 ## 📦 项目依赖包说明

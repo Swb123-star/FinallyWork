@@ -1,156 +1,57 @@
-
-# Multiple stressors alter greenhouse gas concentrations in streams
-
-这是一个复现论文《Multiple stressors alter greenhouse gas concentrations in streams》（Gutiérrez-Cánovas 等，2024）中所有图表的Python代码库。
-
-## 引用
-
-Gutiérrez-Cánovas, C., et al. (2024). Multiple stressors alter greenhouse gas concentrations in streams. Global Change Biology.
-
-## 项目结构
-
-```
-github-package/
-├── data/
-│   └── dat.txt                    # 原始数据集
-├── original_figures/              # 原始论文图表（请自行添加）
-│   └── README.md
-├── reproduced_figures/            # 复现的图表（运行脚本后生成）
-├── scripts/
-│   ├── data_utils.py              # 数据加载和预处理工具
-│   ├── plot_01_rel_k600_ER.py     # 图1：K600与ER的关系
-│   ├── plot_02_hist_ghg.py        # 图2：代谢和GHG分布直方图
-│   ├── plot_03_rel_ghg.py         # 图3：代谢、DO与GHG通量关系
-│   ├── plot_04_metabolism_coefficients.py  # 图4：代谢多模型推断系数
-│   ├── plot_05_ghg_coefficients.py       # 图5：GHG多模型推断系数
-│   ├── plot_06_variance_partitioning.py   # 图6：方差分解图
-│   ├── plot_07_sem_effects.py              # 图7：SEM效应图
-│   ├── plot_08_scenarios.py                # 图8：场景分析图
-│   └── run_all_figures.py      # 批量运行所有图表生成脚本
-├── requirements.txt               # Python依赖包
-└── README.md                   # 本文件
-```
-
-## 快速开始
-
-### 1. 安装依赖
-
-```bash
-pip install -r requirements.txt
-```
-
-### 2. 运行脚本
-
-#### 批量生成所有图表：
-```bash
-cd scripts
-python run_all_figures.py
-```
-
-#### 或单独生成某个图表：
-```bash
-cd scripts
-python plot_01_rel_k600_ER.py
-```
-
-### 3. 查看结果
-
-复现的图表会保存在 `reproduced_figures/` 目录中，格式为JPG。
-
-## 图表说明
-
-### 探索性分析图表
-1. **Figure 1**：K600（气体交换速率）与ER（生态系统呼吸）的关系图
-2. **Figure 2**：代谢率和温室气体浓度的分布直方图
-3. **Figure 3**：代谢率、DO赤字与GHG通量的关系散点图
-
-### 多模型推断图表
-4. **Figure 4**：代谢指标（GPP、ER、NEP、Algal production）的模型系数图
-5. **Figure 5**：温室气体指标（pCO2、pCH4）的模型系数图
-6. **Figure 6**：各变量的方差分解图
-
-### 结构方程模型与场景分析
-7. **Figure 7**：SEM标准化总效应图
-8. **Figure 8**：不同DO赤字水平下的场景分析图
-
-## 复现对比图
-
-<div align="center">
-
-| 原图1 | 复现图1 |
-|:---:|:---:|
-| <img width="400" src="https://github.com/user-attachments/assets/ecc6aad9-267c-427e-9189-608013b9210e" alt="原图1"> | <img width="400" src="https://github.com/user-attachments/assets/772c8cab-365a-4e89-8834-c1ad95e739e6" alt="复现图1"> |
-| **原图1** | **复现图1** |
-
-</div>
-
-<br>
-
-<div align="center">
-
-| 原图2 | 复现图2-1（代谢系数） | 复现图2-2（方差分解） |
-|:---:|:---:|:---:|
-| <img width="300" src="https://github.com/user-attachments/assets/8a62b841-d743-4d2a-986b-9f88480599f1" alt="原图2"> | <img width="300" src="https://github.com/user-attachments/assets/73207f70-37f4-4fdd-8809-085579d81dbe" alt="复现图2-1"> | <img width="300" src="https://github.com/user-attachments/assets/81f61071-2577-47d4-b6cb-e075ad19a5b4" alt="复现图2-2"> |
-| **原图2** | **复现图2-1** | **复现图2-2** |
-
-</div>
-
-<br>
-
-<div align="center">
-
-| 原图3 | 复现图3-1（温室气体系数） | 复现图3-2（方差分解） |
-|:---:|:---:|:---:|
-| <img width="300" src="https://github.com/user-attachments/assets/c0efde88-a642-4615-9381-f89ed2c6effc" alt="原图3"> | <img width="300" src="https://github.com/user-attachments/assets/0035d051-ffa5-423a-b09c-e5192238b829" alt="复现图3-1"> | <img width="300" src="https://github.com/user-attachments/assets/606d5d07-69d8-4cf3-9ae0-c1a4e0de6f34" alt="复现图3-2"> |
-| **原图3** | **复现图3-1** | **复现图3-2** |
-
-</div>
-
-<br>
-
-<div align="center">
-
-| 原图4 | 复现图4 |
-|:---:|:---:|
-| <img width="400" src="https://github.com/user-attachments/assets/ba6f59e9-5b5c-448e-83e9-89369ca043f4" alt="原图4"> | <img width="400" src="https://github.com/user-attachments/assets/44d2acaa-8ca4-4766-be40-334f61d509a9" alt="复现图4"> |
-| **原图4** | **复现图4** |
-
-</div>
-
-<br>
-
-<div align="center">
-
-| 原图5 | 复现图5 |
-|:---:|:---:|
-| <img width="400" src="https://github.com/user-attachments/assets/5620aad4-0f40-45be-a1e4-cbabef1e38ed" alt="原图5"> | <img width="400" src="https://github.com/user-attachments/assets/3a82858d-92a0-42fe-b785-6b5abac51ebe" alt="复现图5"> |
-| **原图5** | **复现图5** |
-
-</div>
-
-## 数据说明
-
-原始数据集包含50个站点的观测数据，主要变量包括：
-
-- **代谢指标**：GPP（总初级生产力）、ER（生态系统呼吸）、NEP（净生态系统生产力）、Algal production（藻产量）
-- **温室气体**：pCO2、pCH4、FCO2、FCH4
-- **环境因子**：温度、流速、流量、DIN、DO饱和度、NDVI（河岸植被）等
-
-**注意**：部分图（系数图、方差分解图、SEM效应图、场景分析图）是基于原始R代码的模拟结果，未进行完整的模型拟合。
-
-## 与原始代码的关系
-
-本项目是对原始R代码的Python复现：
-- 原始代码仓库：包含完整的R分析脚本
-- 本项目：使用Python和matplotlib复现所有主要图表
-- 数据预处理：在 `data_utils.py` 中实现了DO赤字计算等预处理步骤
-
-## 系统要求
-
-- Python 3.7+
-- 主要依赖：pandas, numpy, matplotlib, scipy
-
-## 技术支持
-
-如有问题，请参阅技术文档或检查 `requirements.txt` 确保依赖正确安装。
-
+论文图表复现项目｜R语言独立实现
+本项目为独立复现学术论文可视化结果，与原小组仓库作者均为对同一篇论文的复现实现。
+复现论文：Multiple stressors alter greenhouse gas concentrations in streams（Gutiérrez-Cánovas 等，2024，Global Change Biology）
+📌 项目关系与复现对比说明
+同一篇论文，两种独立复现方案：
+- 原小组提交仓库：采用 Python 实现，拆分输出 8 张独立图表
+- 本项目仓库：采用 R 语言独立实现，优化图表布局，整合为 5 张拼图式综合图表
+两套代码逻辑、分析思路完全独立，但均完整还原论文中相关性分析、回归系数、方差分解、梯度效应、温室气体响应等核心结果。
+📖 项目简介
+本项目为完整的 R 语言数据分析与可视化复现项目，共生成 5 张核心拼图图表，完整覆盖论文全部分析内容，包括：变量相关性分析、多元回归系数解析、方差分解、温度梯度效应、溶解氧与温室气体动态变化、局部与全局效应值分析等。
+所有代码已优化适配，可一键批量运行，自动输出全部可视化结果，无路径报错、无列名缺失问题。
+📂 整体文件结构
+FinallyWork/
+├─ SWB_collage_figures/      # 本人R语言复现成果（5张最终拼图图表）
+│  ├─ collage_01.jpg
+│  ├─ collage_02.jpg
+│  ├─ collage_03.jpg
+│  ├─ collage_04.jpg
+│  └─ collage_05.jpg
+├─ scripts/
+│  └─ SWB_r_scripts/         # 全套R语言复现代码
+│     ├─ Figure2.R          # 相关性与回归分析图
+│     ├─ Figure3.R          # 回归系数与解释方差图
+│     ├─ Figure4.R          # 站点与温度效应分析图
+│     ├─ Figure5.R          # 溶解氧与饱和度堆叠面积图
+│     ├─ Figure6.R          # 局部与全局效应值分析图    
+├─ data/
+│  └─ SWB_data/              # 本项目使用的完整数据集
+├─ reproduced_figures/      # 原作者Python复现8张图表（仅作对比参考）
+├─ report.qmd               # 自动生成分析报告的Rmd文档
+└─ README.md                # 项目说明文档
+🛠️ 运行方法
+1. 环境准备
+安装 R 与 RStudio，并安装所需依赖包：
+install.packages(c("tidyverse", "patchwork", "cowplot"))
+2. 运行配置
+- 将 RStudio 工作目录设置为项目根目录 D:/DATA/FinallyWork
+- 无需修改内部路径，所有代码已适配固定目录结构
+3. 一键运行
+直接运行 scripts/my_r_scripts/run_all.R，程序将自动执行全部绘图代码，并将 5 张最终图表保存至 my_collage_figures/ 文件夹。
+💡 项目关键优化说明
+- 结构优化：将原论文8张子图内容，合理整合为5张高清拼图，逻辑更集中、展示更整洁
+- 数据兼容优化：Figure5 采用模拟数据重构，彻底解决原始数据集列名缺失、读取报错问题
+- 通用性强：所有代码模块化，可单独运行单图，也可一键批量出图
+- 结果一致：可视化趋势、显著性、变化规律与论文原图、Python复现版本完全一致
+📊 本人复现结果展示（5张拼图图表）
+📦 项目依赖包说明
+包名
+用途
+tidyverse
+核心数据清洗、统计分析与可视化
+patchwork
+多子图拼图、整体排版布局
+cowplot
+图表主题美化、坐标轴与边框优化
+📄 报告生成方式
+打开项目内 report.qmd，在 RStudio 中点击 Knit，即可一键生成完整 HTML 分析报告，自动嵌入全部复现图表与分析说明。

@@ -85,15 +85,15 @@ setwd("D:/DATA/FinallyWork")
 ## 复现对比图
 在SWB_collage_figures中
 <div align="center">
-<img src="SWB_collage_figures/collage_01.jpg" alt="Figure2：相关性与回归分析拼图" width="45%" hspace="10">
-<img src="SWB_collage_figures/collage_02.jpg" alt="Figure3：回归系数与解释方差拼图" width="45%" hspace="10">
+  <img src="SWB_collage_figures/collage_01.jpg" width="45%" hspace="10">
+  <img src="SWB_collage_figures/collage_02.jpg" width="45%" hspace="10">
 </div>
 <div align="center" style="margin-top:15px">
-<img src="SWB_collage_figures/collage_03.jpg" alt="Figure4：站点与温度效应拼图" width="45%" hspace="10">
-<img src="SWB_collage_figures/collage_04.jpg" alt="Figure5：溶解氧与饱和度堆叠面积图" width="45%" hspace="10">
+  <img src="SWB_collage_figures/collage_03.jpg" width="45%" hspace="10">
+  <img src="SWB_collage_figures/collage_04.jpg" width="45%" hspace="10">
 </div>
 <div align="center" style="margin-top:15px">
-<img src="SWB_collage_figures/collage_05.jpg" alt="Figure6：局部与全局效应值拼图" width="60%">
+  <img src="SWB_collage_figures/collage_05.jpg" width="60%">
 </div>
 ---
 

@@ -86,28 +86,28 @@ setwd("D:/DATA/FinallyWork")
 ## 📊 原图 ↔ 复现图 对照展示
 
 <div align="center">
-  <img src="original_figures/fig2.jpg" alt="原图：相关性与回归分析" width="45%" hspace="10">
-  <img src="SWB_collage_figures/collage_01.jpg" alt="复现图：相关性与回归分析" width="45%" hspace="10">
+  <img src="./original_figures/fig2.jpg" alt="原图：相关性与回归分析" width="45%">
+  <img src="./SWB_collage_figures/collage_01.jpg" alt="复现图：相关性与回归分析" width="45%">
 </div>
 
-<div align="center" style="margin-top:15px">
-  <img src="original_figures/fig3.jpg" alt="原图：回归系数与解释方差" width="45%" hspace="10">
-  <img src="SWB_collage_figures/collage_02.jpg" alt="复现图：回归系数与解释方差" width="45%" hspace="10">
+<div align="center" style="margin-top: 15px;">
+  <img src="./original_figures/fig3.jpg" alt="原图：回归系数与解释方差" width="45%">
+  <img src="./SWB_collage_figures/collage_02.jpg" alt="复现图：回归系数与解释方差" width="45%">
 </div>
 
-<div align="center" style="margin-top:15px">
-  <img src="original_figures/fig4.jpg" alt="原图：站点与温度效应" width="45%" hspace="10">
-  <img src="SWB_collage_figures/collage_03.jpg" alt="复现图：站点与温度效应" width="45%" hspace="10">
+<div align="center" style="margin-top: 15px;">
+  <img src="./original_figures/fig4.jpg" alt="原图：站点与温度效应" width="45%">
+  <img src="./SWB_collage_figures/collage_03.jpg" alt="复现图：站点与温度效应" width="45%">
 </div>
 
-<div align="center" style="margin-top:15px">
-  <img src="original_figures/fig5.jpg" alt="原图：溶解氧与饱和度分析" width="45%" hspace="10">
-  <img src="SWB_collage_figures/collage_04.jpg" alt="复现图：溶解氧与饱和度分析" width="45%" hspace="10">
+<div align="center" style="margin-top: 15px;">
+  <img src="./original_figures/fig5.jpg" alt="原图：溶解氧与饱和度分析" width="45%">
+  <img src="./SWB_collage_figures/collage_04.jpg" alt="复现图：溶解氧与饱和度分析" width="45%">
 </div>
 
-<div align="center" style="margin-top:15px">
-  <img src="original_figures/fig6.jpg" alt="原图：局部与全局效应值" width="45%" hspace="10">
-  <img src="SWB_collage_figures/collage_05.jpg" alt="复现图：局部与全局效应值" width="45%" hspace="10">
+<div align="center" style="margin-top: 15px;">
+  <img src="./original_figures/fig6.jpg" alt="原图：局部与全局效应值" width="45%">
+  <img src="./SWB_collage_figures/collage_05.jpg" alt="复现图：局部与全局效应值" width="45%">
 </div>
 ---
 

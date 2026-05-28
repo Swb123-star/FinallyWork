@@ -85,30 +85,50 @@ setwd("D:/DATA/FinallyWork")
 
 ## 📊 原图 ↔ 复现图 对照展示
 
-<div align="center">
-  <img src="./original_figures/fig2.jpg" alt="原图：相关性与回归分析" width="45%">
-  <img src="./SWB_collage_figures/collage_01.jpg" alt="复现图：相关性与回归分析" width="45%">
-</div>
+---
 
-<div align="center" style="margin-top: 15px;">
-  <img src="./original_figures/fig3.jpg" alt="原图：回归系数与解释方差" width="45%">
-  <img src="./SWB_collage_figures/collage_02.jpg" alt="复现图：回归系数与解释方差" width="45%">
-</div>
+### 图2 相关性与回归分析
+**原图：**  
+![原图2](./original_figures/fig2.jpg)
 
-<div align="center" style="margin-top: 15px;">
-  <img src="./original_figures/fig4.jpg" alt="原图：站点与温度效应" width="45%">
-  <img src="./SWB_collage_figures/collage_03.jpg" alt="复现图：站点与温度效应" width="45%">
-</div>
+**复现图：**  
+![复现图2](./SWB_collage_figures/collage_01.jpg)
 
-<div align="center" style="margin-top: 15px;">
-  <img src="./original_figures/fig5.jpg" alt="原图：溶解氧与饱和度分析" width="45%">
-  <img src="./SWB_collage_figures/collage_04.jpg" alt="复现图：溶解氧与饱和度分析" width="45%">
-</div>
+---
 
-<div align="center" style="margin-top: 15px;">
-  <img src="./original_figures/fig6.jpg" alt="原图：局部与全局效应值" width="45%">
-  <img src="./SWB_collage_figures/collage_05.jpg" alt="复现图：局部与全局效应值" width="45%">
-</div>
+### 图3 回归系数与解释方差
+**原图：**  
+![原图3](./original_figures/fig3.jpg)
+
+**复现图：**  
+![复现图3](./SWB_collage_figures/collage_02.jpg)
+
+---
+
+### 图4 站点与温度效应
+**原图：**  
+![原图4](./original_figures/fig4.jpg)
+
+**复现图：**  
+![复现图4](./SWB_collage_figures/collage_03.jpg)
+
+---
+
+### 图5 溶解氧与饱和度分析
+**原图：**  
+![原图5](./original_figures/fig5.jpg)
+
+**复现图：**  
+![复现图5](./SWB_collage_figures/collage_04.jpg)
+
+---
+
+### 图6 局部与全局效应值
+**原图：**  
+![原图6](./original_figures/fig6.jpg)
+
+**复现图：**  
+![复现图6](./SWB_collage_figures/collage_05.jpg)
 ---
 
 ## 📦 项目依赖包说明

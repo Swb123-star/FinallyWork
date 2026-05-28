@@ -84,14 +84,15 @@ setwd("D:/DATA/FinallyWork")
 结果一致：可视化趋势、显著性标注、变化规律与论文原图、Python 复现版本完全匹配
 
 ## 📊 原图 ↔ 复现图 对照展示
-
 | 图号与主题 | 论文原文图片 | 本项目 R 语言复现图片 |
 | :---: | :---: | :---: |
-| 图 2 相关性与回归分析 |  |  |
-| 图 3 回归系数与解释方差 |  |  |
-| 图 4 站点与温度效应 |  |  |
-| 图 5 溶解氧与饱和度分析 |  |  |
-| 图 6 局部与全局效应值 |  |  |
+| 图 2 相关性与回归分析 |  |  |[论文原图](https://raw.githubusercontent.com/Swb123-star/FinallyWork/main/original_figures/fig2.jpg) |  |
+| 图 3 回归系数与解释方差 |  |  |[论文原图](https://raw.githubusercontent.com/Swb123-star/FinallyWork/main/original_figures/fig3.jpg) |  |
+| 图 4 站点与温度效应 | ![论文原图](https://raw.githubusercontent.com/Swb123-star/FinallyWork/main/original_figures/fig4.jpg) |  |
+| 图 5 溶解氧与饱和度分析 | ![论文原图](https://raw.githubusercontent.com/Swb123-star/FinallyWork/main/original_figures/fig5.jpg) |  |
+| 图 6 局部与全局效应值 |  |  |[论文原图](https://raw.githubusercontent.com/Swb123-star/FinallyWork/main/original_figures/fig6.jpg) |  |
+
+---
 
 ## 📦 项目依赖包说明
 | 包名 | 用途 |

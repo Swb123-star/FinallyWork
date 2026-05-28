@@ -83,52 +83,60 @@ setwd("D:/DATA/FinallyWork")
 数据修复：Figure5 采用模拟数据重构，彻底解决原始数据集列名缺失、读取报错问题
 结果一致：可视化趋势、显著性标注、变化规律与论文原图、Python 复现版本完全匹配
 
-## 📊 原图 ↔ 复现图 对照展示
+## 复现对比图
 
----
+<div align="center">
 
-### 图2 相关性与回归分析
-**原图：**  
-![原图2](./original_figures/fig2.jpg)
+| 原图1（图2：相关性与回归分析） | 复现图1（图2：相关性与回归分析拼图） |
+|:---:|:---:|
+| <img width="400" src="https://cdn.jsdelivr.net/gh/Swb123-star/FinallyWork@main/original_figures/fig2.jpg" alt="原图2"> | <img width="400" src="https://cdn.jsdelivr.net/gh/Swb123-star/FinallyWork@main/SWB_collage_figures/collage_01.jpg" alt="复现图2"> |
+| **原图2** | **复现图2** |
 
-**复现图：**  
-![复现图2](./SWB_collage_figures/collage_01.jpg)
+</div>
 
----
+<br>
 
-### 图3 回归系数与解释方差
-**原图：**  
-![原图3](./original_figures/fig3.jpg)
+<div align="center">
 
-**复现图：**  
-![复现图3](./SWB_collage_figures/collage_02.jpg)
+| 原图2（图3：回归系数与解释方差） | 复现图2（图3：回归系数与解释方差拼图） |
+|:---:|:---:|
+| <img width="300" src="https://cdn.jsdelivr.net/gh/Swb123-star/FinallyWork@main/original_figures/fig3.jpg" alt="原图3"> | <img width="300" src="https://cdn.jsdelivr.net/gh/Swb123-star/FinallyWork@main/SWB_collage_figures/collage_02.jpg" alt="复现图3"> |
+| **原图3** | **复现图3** |
 
----
+</div>
 
-### 图4 站点与温度效应
-**原图：**  
-![原图4](./original_figures/fig4.jpg)
+<br>
 
-**复现图：**  
-![复现图4](./SWB_collage_figures/collage_03.jpg)
+<div align="center">
 
----
+| 原图3（图4：站点与温度效应） | 复现图3（图4：站点与温度效应拼图） |
+|:---:|:---:|
+| <img width="300" src="https://cdn.jsdelivr.net/gh/Swb123-star/FinallyWork@main/original_figures/fig4.jpg" alt="原图4"> | <img width="300" src="https://cdn.jsdelivr.net/gh/Swb123-star/FinallyWork@main/SWB_collage_figures/collage_03.jpg" alt="复现图4"> |
+| **原图4** | **复现图4** |
 
-### 图5 溶解氧与饱和度分析
-**原图：**  
-![原图5](./original_figures/fig5.jpg)
+</div>
 
-**复现图：**  
-![复现图5](./SWB_collage_figures/collage_04.jpg)
+<br>
 
----
+<div align="center">
 
-### 图6 局部与全局效应值
-**原图：**  
-![原图6](./original_figures/fig6.jpg)
+| 原图4（图5：溶解氧与饱和度分析） | 复现图4（图5：溶解氧与饱和度分析拼图） |
+|:---:|:---:|
+| <img width="400" src="https://cdn.jsdelivr.net/gh/Swb123-star/FinallyWork@main/original_figures/fig5.jpg" alt="原图5"> | <img width="400" src="https://cdn.jsdelivr.net/gh/Swb123-star/FinallyWork@main/SWB_collage_figures/collage_04.jpg" alt="复现图5"> |
+| **原图5** | **复现图5** |
 
-**复现图：**  
-![复现图6](./SWB_collage_figures/collage_05.jpg)
+</div>
+
+<br>
+
+<div align="center">
+
+| 原图5（图6：局部与全局效应值） | 复现图5（图6：局部与全局效应值拼图） |
+|:---:|:---:|
+| <img width="400" src="https://cdn.jsdelivr.net/gh/Swb123-star/FinallyWork@main/original_figures/fig6.jpg" alt="原图6"> | <img width="400" src="https://cdn.jsdelivr.net/gh/Swb123-star/FinallyWork@main/SWB_collage_figures/collage_05.jpg" alt="复现图6"> |
+| **原图6** | **复现图6** |
+
+</div>
 ---
 
 ## 📦 项目依赖包说明

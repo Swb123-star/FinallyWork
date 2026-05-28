@@ -81,22 +81,9 @@ setwd("D:/DATA/FinallyWork")
 结构优化：将原论文 8 张子图内容，合理整合为 5 张高清拼图，逻辑更集中、展示更清晰
 数据修复：Figure5 采用模拟数据重构，彻底解决原始数据集列名缺失、读取报错问题
 结果一致：可视化趋势、显著性标注、变化规律与论文原图、Python 复现版本完全匹配
-
 ## 复现对比图
 在SWB_collage_figures中
-<div align="center">
-  <img src="SWB_collage_figures/collage_01.jpg" width="45%" hspace="10">
-  <img src="SWB_collage_figures/collage_02.jpg" width="45%" hspace="10">
-</div>
-<div align="center" style="margin-top:15px">
-  <img src="SWB_collage_figures/collage_03.jpg" width="45%" hspace="10">
-  <img src="SWB_collage_figures/collage_04.jpg" width="45%" hspace="10">
-</div>
-<div align="center" style="margin-top:15px">
-  <img src="SWB_collage_figures/collage_05.jpg" width="60%">
-</div>
 ---
-
 ## 📦 项目依赖包说明
 | 包名 | 用途 |
 | :--- | :--- |
